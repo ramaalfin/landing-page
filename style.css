@@ -1,0 +1,1716 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --blue: rgb(34, 56, 87);
+    --yellow: rgb(248, 179, 13);
+    --red: rgb(253, 45, 44);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 70px 180px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 1.3rem;
+    background-color: var(--yellow);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.btn:hover {
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.4;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+}
+
+.home .content {
+    max-width: 900px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.home .content h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--yellow);
+    margin-bottom: 20px;
+}
+
+.home .content h2 {
+    color: white;
+}
+
+.bio .title h2 {
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.bio .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bio .row .col-50 {
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+.row .zah {
+    margin-left: 100px;
+}
+
+.row .je {
+    margin-right: 100px;
+}
+
+.bio .bio_img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    justify-self: center;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.row .col-50 p {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.bio p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+section.impian-content1,
+section.impian-content3 {
+    padding: 10px 0;
+}
+
+section.impian {
+    background-color: var(--blue);
+    padding: 5px 0;
+    text-transform: uppercase;
+    color: var(--yellow);
+}
+
+.impian .title {
+    padding: 30px;
+    text-align: center;
+}
+
+.impian .title h2 {
+    color: var(--yellow);
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.impian-content1 {
+    background: url("./assets/img/IMG_20210824_154537_466.webp");
+}
+
+.impian-content1 .container {
+    margin: 30px auto;
+    max-width: 620px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.impian-content2 {
+    background: var(--blue);
+    color: white;
+}
+
+.impian-content2 h2 {
+    margin-bottom: 20px;
+}
+
+.impian-content2 ul {
+    list-style: none;
+}
+
+.impian-content2 li {
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin: 10px 0 0 0;
+}
+
+.impian-content2 li span {
+    color: var(--red);
+}
+
+.impian-content3 {
+    background: url("./assets/img/IMG_20210824_154537_466.webp");
+}
+
+.impian-content3 .container {
+    margin: 30px auto;
+    max-width: 620px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.fakta {
+    width: 100%;
+}
+
+.fakta .content {
+    max-width: 600px;
+    background-color: var(--blue);
+    color: white;
+    padding: 40px 30px;
+    font-size: 1.4rem;
+    margin: 0px auto;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.who {
+    background-color: var(--blue);
+}
+
+.who .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+.who .title span.under {
+    text-decoration: underline;
+}
+
+.who .title span.red {
+    color: var(--red);
+}
+
+.who .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.who .row .col-50 {
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+.who .row .col-50 img {
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.asuransi {
+    background: url("./assets/img/IMG_20210824_154537_466.webp");
+}
+.asuransi .title {
+    background-color: var(--blue);
+    padding: 40px 30px;
+    max-width: 500px;
+}
+.asuransi .img {
+    text-align: center;
+    margin: 20px 0;
+}
+.asuransi .img img {
+    width: 65%;
+}
+.asuransi .title h2 {
+    color: white;
+    font-weight: bold;
+}
+.asuransi .deskripsi {
+    background-color: rgb(33, 29, 29);
+    padding: 30px;
+}
+.asuransi .deskripsi h2 {
+    color: var(--yellow);
+    font-weight: bold;
+}
+.asuransi ul {
+    list-style-type: none;
+}
+.asuransi ul li {
+    padding-left: 3.4rem;
+    padding-bottom: 1rem;
+    background-image: url("./assets/img/checklis.webp");
+    background-position: 0 0;
+    background-size: 2.6rem 2.6rem;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.asuransi ul li:first-child {
+    margin-top: 20px;
+}
+.asuransi ul li p {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.produk {
+    background: url("./assets/img/IMG_20210824_154537_466.webp");
+}
+.produk h1 {
+    color: var(--blue);
+}
+
+.produk .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.produk .row .col-50 {
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+
+.produk .kiri {
+    margin-left: 100px;
+}
+
+.produk .kanan {
+    margin-right: 100px;
+}
+
+.col-50 img {
+    top: 0;
+    left: 0;
+    width: 70%;
+    margin: 10px 20px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.col-50 img:hover {
+    opacity: 0.7;
+}
+
+.produk .img img {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.produk .img img:hover {
+    opacity: 1;
+}
+
+.produk .modal1,
+.produk .modal2,
+.produk .modal3,
+.produk .modal4 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.produk .modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 26rem;
+    border-radius: 0.5rem;
+}
+
+.produk .close-button1,
+.produk .close-button2,
+.produk .close-button3,
+.produk .close-button4 {
+    font-weight: bold;
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+
+.produk .close-button1:hover,
+.produk .close-button2:hover,
+.produk .close-button3:hover,
+.produk .close-button4:hover {
+    background-color: var(--yellow);
+    transition: .5s ease-in-out;
+}
+
+.produk .show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.produk .deskripsi {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.premi .img {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.premi .img img {
+    width: 70%;
+}
+
+.premi p {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: black;
+}
+
+.premi .deskripsi {
+    background-color: var(--yellow);
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 25px;
+}
+
+.premi .deskripsi p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.pertimbangan {
+    background: url("./assets/img/IMG_20210826_101244_984.PNG.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pertimbangan img {
+    opacity: 0.2;
+    left: 0;
+    top: -19;
+    width: 400px;
+    position: absolute;
+}
+
+.pertimbangan .bold {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.pertimbangan .list-pertimbangan {
+    max-width: 700px;
+    padding: 30px;
+    background-color: var(--blue);
+    color: var(--yellow);
+    border-radius: 50px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    box-shadow: 10px 10px rgb(162, 215, 235);
+}
+
+.pertimbangan ul {
+    list-style-type: none;
+}
+
+.pertimbangan ul li {
+    padding-left: 4rem;
+    padding-bottom: 1.5rem;
+    background-image: url("./assets/img/IMG_20210823_223623_141.PNG.webp");
+    background-position: 0 0;
+    background-size: 3rem 3rem;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.pertimbangan ul li:first-child {
+    margin-top: 20px;
+}
+
+.pertimbangan ul li p {
+    padding-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.pertimbangan .desc {
+    margin: 20px 0px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pertimbangan .normal {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.promo {
+    background: url("./assets/img/IMG_20210826_101244_984.PNG.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.promo h1 {
+    margin-bottom: 10px;
+}
+
+.promo p.text {
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.promo .list-promo {
+    max-width: 700px;
+    padding: 30px;
+    background-color: var(--blue);
+    color: var(--yellow);
+    border-radius: 50px;
+    margin: 0px auto;
+    box-shadow: 10px 10px rgb(162, 215, 235);
+}
+
+.promo ul {
+    list-style-type: none;
+}
+
+.promo ul li {
+    padding-left: 4rem;
+    padding-bottom: 1.5rem;
+    background-image: url("./assets/img/checklis.webp");
+    background-position: 0 0;
+    background-size: 3rem 3rem;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.promo ul li:first-child {
+    margin-top: 20px;
+}
+
+.promo ul li p {
+    padding-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.data h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.data .company,
+.data .pilih,
+.data .testi {
+    width: 41%;
+    height: 250px;
+    padding: 15px;
+    background-color: var(--blue);
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+.company-container,
+.company,
+.pilih-container,
+.pilih,
+.testi-container,
+.testi {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.slide1,
+.slide2,
+.slide3 {
+    display: none;
+}
+
+.company img,
+.pilih img,
+.testi img {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    object-fit: revert;
+    border-radius: 5px;
+}
+
+.company img:hover,
+.pilih img:hover,
+.testi img:hover {
+    opacity: 0.7;
+}
+
+#prev,
+#next {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    color: black;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+
+#prev {
+    left: 4px;
+}
+
+#next {
+    right: 4px;
+}
+
+#prev:hover,
+#next:hover {
+    background-color: var(--yellow);
+    opacity: 1;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.overlay {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0);
+	z-index: 1;
+	transition: .8s;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.overlay:target {
+	width: auto;
+	height: auto;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,.7);
+}
+
+.overlay img {
+	box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+}
+
+.overlay:target img {
+	animation: zoomDanFade 1s;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay .close {
+    font-weight: bold;
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+    opacity: .5;
+}
+.overlay:target .close {
+	animation: slideDownFade .5s .5s forwards;
+    margin-bottom: 10px;
+}
+.overlay .close:hover{
+    background-color: var(--yellow);
+    transition: .5s ease-in-out;
+}
+section.data .show-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem ;
+    width: 45%;
+    height: 74%;
+    border-radius: 0.5rem;
+}
+
+
+/* animasi */
+@keyframes zoomDanFade {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes slideDownFade {
+	0% {
+		opacity: 0;
+		margin-top: -20px;
+	}
+
+	100% {
+		opacity: 1;
+		margin-top: 0;
+	}
+}
+
+
+.manfaat h2 {
+    margin-bottom: 10px;
+}
+
+.manfaat .text {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+.manfaat .text span {
+    background-color: var(--yellow);
+}
+
+.bonus {
+    background-color: var(--blue);
+    color: #fff;
+}
+.bonus h2 {
+    text-align: center;
+    line-height: 50px;
+}
+.bonus h2 span {
+    background-color: #fff700;
+    color: var(--red);
+    padding: 5px;
+}
+.bonus h2 span:hover {
+    letter-spacing: 1px;
+}
+.bonus .btn {
+    max-width: 450px;
+}
+.quotes {
+    background-color: var(--blue);
+    margin-top: 50px;
+    text-align: center;
+}
+.bonus .quote {
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 100%;
+    margin: 10px auto;
+}
+.bonus p {
+    font-size: 1.4rem;
+}
+
+.faq h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.accordion {
+    overflow: hidden;
+    background-color: white;
+}
+.accordion .title {
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+.accordion .title:hover {
+    opacity: 0.7;
+}
+.accordion .title h5 {
+    margin-left: 20px;
+}
+.accordion .title::before {
+    content: "+";
+    position: absolute;
+    top: -3px;
+    font-size: 1.5rem;
+}
+.accordion.active .title::before {
+    content: "-";
+}
+.accordion .panel {
+    padding: 0 15px;
+    height: 0;
+    overflow: hidden;
+    text-align: justify;
+    transition: .3s ease-out;
+    margin-left: 20px;
+}
+.accordion.active .panel {
+    height: 100px;
+    padding: 10px;
+}
+
+.icons a {
+    display: inline-flex;
+    width: 90px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 40px;
+    background: #fff;
+    margin: 15px 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+    transition: background-position 0.5s, color 0.5s;
+}
+.icons a:first-child {
+    margin-left: 0px;
+}
+.icons a:nth-child(1) {
+    background-image: linear-gradient(#fff 50%, #ff0000 50%);
+    color: #ff0000;
+}
+.icons a:nth-child(2) {
+    background-image: linear-gradient(#fff 50%, #bc2a8d 50%);
+    color: #bc2a8d;
+}
+.icons a:nth-child(3) {
+    background-image: linear-gradient(#fff 50%, #0e76a8 50%);
+    color: #0e76a8;
+}
+.icons a:hover {
+    background-position: 0% 100%;
+    color: white;
+}
+
+.email .container {
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+#contact {
+	background:#F9F9F9;
+    border-radius: 20px;
+	padding:25px;
+	margin:50px 0;
+}
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+    border-radius: 5px;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+footer {
+    background-color: var(--blue);
+    color: white;
+    padding: 10px 180px;
+    text-align: center;
+}
+footer h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+footer p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+footer h3 {
+    font-weight: normal;
+}
+
+@media screen and (max-width: 992px) {
+    section{
+        padding: 50px 120px;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+    .button {
+        margin-top: 35px;
+    }
+    .btn{
+        font-size: 1.2rem;
+    }
+
+    .home .content h1{
+        margin-bottom: 15px;
+    }
+
+    .row .zah {
+        margin-left: 0px;
+    }
+    .row .je{
+        margin-right: 0px;
+    }
+    .bio .bio_img {
+        width: 260px;
+        height: 260px;
+        margin-bottom: 15px;
+    }
+    .row .col-50 p {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .bio p {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+
+    .impian-content2 h1 {
+        margin-bottom: 15px;
+    }
+    .impian-content2 li {
+        margin: 8px 0 0 0;
+        font-size: 1.3rem;
+    }
+    .fakta .content {
+        padding: 35px 30px;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+    .who .title h1{
+        font-size: 1.9rem;
+    }
+
+    .asuransi .title {
+        padding: 35px 25px;
+        max-width: 500px;
+    }
+    .asuransi ul li:first-child {
+        margin-top: 17px;
+    }
+    .asuransi ul li {
+        padding-left: 3rem;
+        padding-bottom: 1rem;
+        background-size: 2.5rem 2.5rem;
+        margin-top: 0px;
+        margin-bottom: 1px;
+    }
+
+    .produk .col-50 img {
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin: 5px 0px;
+        object-fit: cover;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .produk .modal-container {
+        padding: 1rem;
+        width: 33%;
+    }
+
+    .premi p {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: black;
+    }
+
+    .pertimbangan ul li:first-child {
+        margin-top: 10px;
+    }
+    .pertimbangan ul li {
+        padding-left: 3.5rem;
+        padding-bottom: 1rem;
+        background-size: 2.5rem 2.5rem;
+        margin-bottom: 5px;
+    }
+    .pertimbangan .desc {
+        margin: 40px 0px 20px;
+        font-size: 1.8rem;
+    }
+
+    .promo ul li:first-child {
+        margin-top: 10px;
+    }
+    .promo ul li {
+        padding-left: 3.5rem;
+        padding-bottom: 1rem;
+        background-size: 2.5rem 2.5rem;
+        margin-bottom: 5px;
+    }
+
+    .company img, .pilih img, .testi img {
+        object-fit: revert;
+    }
+    .data .company, .data .pilih, .data .testi {
+        width: 45%;
+        height: 220px;
+    }
+    .company img, .pilih img, .testi img {
+        height: 190px;
+        border-radius: 8px;
+    }
+    section.data .show-modal {
+        width: 53%;
+        height: 77%;
+    }
+
+    .manfaat .text {
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+        font-weight: 500;
+    }
+
+    .quotes .quote {
+        font-size: 1.5rem;
+    }
+    .quotes p {
+        font-size: 1.2rem;
+    }
+    
+    .faq h1 {
+        margin-bottom: 15px;
+    }
+
+    .accordion.active .panel {
+        height: 100px;
+        padding: 10px;
+    }
+
+    footer{
+        padding: 10px 95px;
+    }
+    footer p {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    section{
+        padding: 50px 120px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    .button {
+        margin-top: 30px;
+    }
+    .btn{
+        font-size: 1.1rem;
+    }
+
+    .home .content h1{
+        margin-bottom: 15px;
+    }
+    .home .content h2{
+        font-size: 1.3rem;
+    }
+
+    .bio .bio_img {
+        width: 210px;
+        height: 210px;
+        margin-bottom: 5px;
+    }
+    .row .col-50 p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .bio p {
+        font-size: 1rem;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+    .impian-content1 img{
+        width: 70%;
+    }
+    .impian-content2 li {
+        margin: 3px 0 0 0;
+        font-size: 1.1rem;
+    }
+    .impian-content3 img{
+        width: 80%;
+    }
+
+    .fakta .content {
+        padding: 35px 30px;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+    
+    .who .row {
+        display: grid;
+        margin-top: 30px;
+    }
+    .who .row .col-50 {
+        position: relative;
+        margin: 0px auto;
+        width: 100%;
+    }
+    .who .row .col-50 img {
+        width: 75%;
+        margin: 5px;
+    }
+
+    .asuransi .img img {
+        width: 85%;
+    }
+    .asuransi .deskripsi h2 {
+        font-size: 1.3rem;
+    }
+
+    .asuransi ul li:first-child {
+        margin-top: 13px;
+    }
+    .asuransi ul li p {
+        padding-top: 5px;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .asuransi ul li {
+        padding-left: 2.9rem;
+        padding-bottom: .2rem;
+        background-size: 2.2rem 2.2rem;
+        margin-bottom: 5px;
+    }
+    
+    .produk .row {
+        margin-top: 25px;
+    }
+    .produk .row .col-50 {
+        margin: 0px auto;
+    }
+    .produk .col-50 img {
+        width: 90%;
+    }
+    .produk .modal-container {
+        padding: 1rem;
+        width: 40%;
+    }
+    .modal-container .img img{
+        width: 100%;
+    }
+    .produk .deskripsi {
+        font-size: 1rem;
+        margin: 0px;
+    }
+
+    .premi .img img {
+        width: 70%;
+    }
+    .premi .deskripsi p {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .pertimbangan .bold {
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+    .pertimbangan .list-pertimbangan {
+        max-width: 470px;
+        margin: 0px auto;
+        margin-bottom: 0px;
+    }
+    .pertimbangan ul li:first-child {
+        margin-top: 0px;
+    }
+    .pertimbangan ul li {
+        padding-left: 3rem;
+        padding-bottom: .4rem;
+        background-size: 2.1rem 2.1rem;
+        margin-bottom: 5px;
+    }
+    .pertimbangan ul li p {
+        padding-top: 0px;
+        font-size: 1.2rem;
+    }
+    .pertimbangan .desc {
+        margin: 30px 0px 10px;
+        font-size: 1.6rem;
+    }
+    .pertimbangan .normal {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .promo p.text {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    .promo .list-promo {
+        max-width: 470px;
+        margin: 0px auto;
+        margin-bottom: 0px;
+    }
+    .promo ul li:first-child {
+        margin-top: 0px;
+    }
+    .promo ul li {
+        padding-left: 3rem;
+        padding-bottom: .4rem;
+        background-size: 2.1rem 2.1rem;
+        margin-bottom: 5px;
+    }
+    .promo ul li p {
+        padding-top: 0px;
+        font-size: 1.2rem;
+    }
+
+    .company-container, 
+    .company, .pilih-container, 
+    .pilih, .testi-container{
+        position: relative;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .data .company, .data .pilih, .data .testi {
+        width: 55%;
+        height: 180px;
+    }
+    .company img, .pilih img, .testi img {
+        height: 151px;
+        border-radius: 8px;
+    }
+    #prev, #next {
+        font-size: 17px;
+        height: 27px;
+        width: 27px;
+    }
+    section.data .show-modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1rem;
+        width: 65%;
+        height: 75%;
+        border-radius: 0.5rem;
+    }
+
+    .manfaat .text {
+        font-size: 1.1rem;
+        line-height: 2rem;
+        font-weight: 500;
+    }
+
+    .bonus h2 {
+        text-align: center;
+        line-height: 40px;
+        font-size: 1.5rem;
+    }
+
+    .quotes {
+        margin-top: 40px;
+    }
+    .quotes .quote {
+        font-size: 1.2rem;
+    }
+    .quotes p {
+        font-size: 1rem;
+    }
+
+    .faq h2 {
+        margin-bottom: 10px;
+    }
+    .accordion .title {
+        font-size: 1.3rem;
+    }
+    .accordion.active .panel {
+        height: 80px;
+        font-size: .9rem;
+        padding-top: 0px;
+        padding-left: 5px;
+    }
+
+    .icons a{
+        width: 80px;
+        height: 80px;
+        font-size: 35px;
+    }
+
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .col-md-8 {
+        flex: 0 0 auto;
+        width: 66.6666666667%;
+    }
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    
+    footer h2 {
+        margin-bottom: 5px;
+    }
+    footer p {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    footer h3{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    section{
+        padding: 40px 30px;
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    .button {
+        margin-top: 25px;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+
+    section .content{
+        padding: 0px 0px;
+    }
+    .home .content {
+        max-width: 340px;
+    }
+    .home .content h1 {
+        margin-bottom: 30px;
+    }
+    .home .content h2 {
+        font-size: 1.1rem;
+    }
+
+    .bio .title h2 {
+        font-weight: 500;
+        margin-bottom: 0px;
+        font-size: 1.2rem;
+    }
+    .bio .bio_img {
+        width: 170px;
+        height: 170px;
+        margin-bottom: 5px;
+    }  
+    .row .col-50 p {
+        font-size: 1rem;
+    }
+    .col-50 img {
+        margin: 10px 0px;
+    }
+    .bio p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .impian-content2 h2 {
+        margin-bottom: 15px;
+    }
+    .impian-content2 li {
+        font-size: 1rem;
+    }
+
+    .fakta .content {
+        padding: 30px 25px;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .who .row {
+        display: grid;
+        margin-top: 25px;
+    }
+    .who .row .col-50 img {
+        width: 75%;
+        margin: 3px;
+    }
+
+    .asuransi .title {
+        padding: 20px 20px;
+        max-width: 350px;
+    }
+    .asuransi .deskripsi {
+        background-color: rgb(33, 29, 29);
+        padding: 20px 25px;
+    }
+    .asuransi .deskripsi h2 {
+        font-size: 1.1rem;
+    }
+    .asuransi ul li:first-child {
+        margin-top: 10px;
+    }
+    .asuransi ul li {
+        padding-left: 2.5rem;
+        padding-bottom: .4rem;
+        background-size: 1.8rem 1.8rem;
+        margin-bottom: 5px;
+    }
+    .asuransi ul li p {
+        padding-top: 0px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .produk .row {
+        margin-top: 15px;
+    }
+    .produk .row .col-50 {
+        margin: 0px auto;
+    }
+    .produk .col-50 img {
+        width: 90%;
+    }
+    .produk .modal-container {
+        padding: 1rem;
+        width: 65%;
+    }
+    .modal-container .img img{
+        width: 100%;
+    }
+
+    .premi .img img {
+        width: 70%;
+    }    
+    .premi .deskripsi {
+        background-color: var(--yellow);
+        margin: 20px auto;
+        max-width: 360px;
+        padding: 15px;
+    }
+    .premi .deskripsi p {
+        font-size: 1rem;
+    }
+
+    .pertimbangan .bold {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+    .pertimbangan .list-pertimbangan {
+        max-width: 370px;
+        margin: 0px auto;
+        margin-bottom: 0px;
+    }
+    .pertimbangan ul li {
+        padding-left: 2.5rem;
+        padding-bottom: .3rem;
+        background-size: 1.9rem 1.9rem;
+        margin-bottom: 0px;
+    }
+    .pertimbangan ul li p {
+        font-size: 1rem;
+    }
+    .pertimbangan .desc {
+        margin: 25px 0px 10px;
+        font-size: 1.3rem;
+    }
+    .pertimbangan .normal {
+        font-size: 1rem;
+    }
+
+    .promo p.text {
+        font-size: .9rem;
+        margin-bottom: 15px;
+    }
+    .promo .list-promo {
+        max-width: 370px;
+        margin: 0px auto;
+        margin-bottom: 0px;
+    }
+    .promo ul li {
+        padding-left: 2.5rem;
+        padding-bottom: .3rem;
+        background-size: 1.9rem 1.9rem;
+        margin-bottom: 0px;
+    }
+    .promo ul li p {
+        font-size: 1rem;
+    }
+
+    .data h2 {
+        margin-bottom: 4px;
+    }
+    .data .company, .data .pilih, .data .testi {
+        width: 100%;
+        height: 220px;
+        padding: 8px;
+    }
+    .company img, .pilih img, .testi img {
+        height: 203px;
+    }
+    section.data .show-modal {
+        width: 100%;
+        height: 65%;
+    }
+    .overlay .close {
+        font-weight: bold;
+        float: right;
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .manfaat h2 {
+        margin-bottom: 5px;
+    }
+    .manfaat .text {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .bonus h2 {
+        font-size: 1.2rem;
+    }
+    .bonus h2 span{
+        font-size: 2rem;
+    }
+
+    .quotes {
+        margin-top: 35px;
+    }
+    .quotes .quote {
+        font-size: 1rem;
+    }
+    .quotes p {
+        font-size: .9rem;
+    }
+
+    .accordion .title {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    .accordion.active .panel {
+        height: 100%;
+        font-size: .8rem;
+    }
+
+    .icons a{
+        margin: 5px 8px;
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    footer {
+        padding: 10px 20px;
+    }
+    footer p {
+        font-size: .9rem;
+    }
+    footer h3 {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 360px){
+    section {
+        padding: 27px 15px;
+    }
+
+    .home .content {
+        max-width: 327px;
+        margin-bottom: 20px;
+    }
+    .home .content h1 {
+        margin-bottom: 15px;
+    }
+    
+    .bio .bio_img {
+        width: 165px;
+        height: 165px;
+        margin-bottom: 5px;
+    }
+
+    .impian-content1 img {
+        width: 90%;
+    }
+    .impian-content3 img {
+        width: 95%;
+    }
+
+    .who .row .col-50 img {
+        width: 95%;
+        margin: 3px;
+    }
+
+    .asuransi .img img {
+        width: 100%;
+    }
+
+    .produk .col-50 img {
+        width: 100%;
+    }
+    .produk .modal-container {
+        padding: 1rem;
+        width: 78%;
+    }
+
+    .premi .img img {
+        width: 90%;
+    }
+
+    .pertimbangan .list-pertimbangan {
+        box-shadow: 5px 5px rgb(162 215 235);
+    }
+    .promo .list-promo {
+        box-shadow: 5px 5px rgb(162 215 235);
+    }
+    
+    .data .company, .data .pilih, .data .testi {
+        width: 95%;
+        height: 220px;
+    }
+    .company img, .pilih img, .testi img {
+        height: 202px;
+    }
+
+    .manfaat h2 {
+        margin-bottom: 10px;
+    }
+    .manfaat .text {
+        line-height: 1.7rem;
+    }
+
+    .accordion.active .panel {
+        height: 100%;
+        font-size: .8rem;
+        padding-left: 2px;
+        transition: .5s ease;
+    }
+}
