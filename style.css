@@ -880,6 +880,16 @@ section.data .show-modal{
     color: white;
 }
 
+/* visit counter */
+.visit-counter{
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.visit-counter p{
+    margin-right: 10px;
+}
+
 .email .container {
 	width:100%;
 	margin:0 auto;
