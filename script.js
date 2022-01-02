@@ -156,7 +156,7 @@ const COUNT_URL = "https://api.countapi.xyz";
 const NAMESPACE = "plan-your-protection.netlify.app";
 const KEY = "ef3afdec-6ba5-11ec-90d6-0242ac120003";
 
-const counter = document.querySelectorAll('counters');
+const counter = document.querySelectorAll('.counters');
 
 const getCount = async () => {
   const response = await fetch(`${COUNT_URL}/get/${NAMESPACE}/${KEY}`);
