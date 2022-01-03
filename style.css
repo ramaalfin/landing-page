@@ -1637,6 +1637,11 @@ footer h3 {
         font-size: 30px;
     }
 
+    .visit-counter{
+        font-size: 1rem;
+
+    }
+
     footer {
         padding: 10px 20px;
     }
