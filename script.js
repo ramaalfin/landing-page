@@ -152,6 +152,8 @@ for(i = 0; i<acc.length; i++){
 
 // ===========================================
 
+
+// ip sama tidak nambah
 const COUNT_URL = "https://api.countapi.xyz";
 const NAMESPACE = "plan-your-protection.netlify.app";
 const KEY = "ef3afdec-6ba5-11ec-90d6-0242ac120003";
@@ -171,7 +173,7 @@ const incrementCount = async () => {
 };
 
 const setValue = (num) => {
-  var str = num.toString().padStart(6, "0");
+  var str = num.toString().padStart(4, "0");
   for (let index = 0; index < str.length; index++) {
     const element = str[index];
     counter[index].innerHTML = element;
@@ -188,3 +190,16 @@ if (localStorage.getItem("hasVisited") == null) {
   getCount()
     .catch((err) => console.log(err));
 }
+
+// ip sama nambah 
+// const countEl = document.getElementById('count');
+
+// updateVisitCount();
+
+// function updateVisitCount() {
+//   fetch('https://api.countapi.xyz/update/plan-your-protection.netlify.app/ef3afdec-6ba5-11ec-90d6-0242ac120003?amount=1')
+//   .then(res => res.json())
+//   .then(res => {
+//     countEl.innerHTML = res.value;
+//   });
+// }
